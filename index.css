@@ -1,0 +1,131 @@
+
+body {
+  background-image: url("https://wpblink.com/sites/default/files/wallpaper/sports/74074/weightlifting-wallpapers-hd-74074-3438106.png"), linear-gradient(to bottom, #ADB2B6, #ABAEB3);
+  position: static;           
+  color:red;
+  font-family: Sans-serif;
+  background-size: cover;
+  max-width: 100%;
+  padding-left: 100px;
+  text-align: center;
+  padding-right: 100px;
+  background-repeat: no-repeat;
+}
+
+li {
+  list-style: none
+}
+
+button {
+  display:inline-block;
+  background-color: snow; 
+  border-radius: 0.5px;
+  padding: 10px 10px;
+  color: black;
+  font-size: 20px;
+  margin: 5px auto;
+}
+
+.welcomeMessage {
+  font-size: 170%;
+  text-shadow: 2px 2px black;
+  margin-top: 150px;
+}
+
+.instructions {
+  font-size: 170%;
+  text-shadow: 2px 2px black;
+  margin-top: 20px;
+}
+
+.questionCount {
+  font-size: 240%;
+  text-shadow: 2px 2px black;
+
+  margin-top: -100px;
+}
+
+.question {
+  font-size: 170%;
+  text-shadow: 2px 2px black;
+  font-weight: 700;
+}
+
+.answers {
+  text-align: left;
+  line-height: 30px;
+  margin-top: 5px;
+  font-size: 170%;
+  font-weight: 700;
+  text-shadow: 2px 2px black;
+}
+
+.result {
+  margin-top: -20px;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 2px 2px black;
+}
+
+.scoreCount {
+  color: snow;
+  font-size: 150%;
+  font-weight: 400;
+  text-shadow: 2px 2px black;
+}
+
+.correctedAnswer {
+  color: red;
+  font-size: 28px;
+  font-weight: 400;
+  text-shadow: 2px 2px black;
+}
+
+.finalMessage  {
+  color: snow;
+  margin-top: -40px;
+  font-size: 34px;
+  font-weight: 400;
+  text-shadow: 2px 2px black;
+}
+
+.finalResult  {
+  color: snow;
+  font-size: 170%;
+  font-weight: 400;
+  text-shadow: 2px 2px black;
+  margin-top: 20px;
+}
+
+.conclusion  {
+  color: snow;
+  font-size: 180%;
+  font-weight: 400;
+  text-shadow: 2px 2px black;
+  margin-top: 10px;
+}
+  
+.finalScore {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.beginAgain {
+  margin-left: auto;
+  margin-right: auto;
+  font-size:150%;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+  padding-left:20px;
+  padding-right:20px;
+  font-size:15px;
+}
+}
+
+@media only screen and (max-width: 420px) {
+  button  { 
+  width: 100%;
+}
+}

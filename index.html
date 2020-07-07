@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <link href="index.css" rel="stylesheet" type="text/css" />
+            <title>Thinkful Quiz App Fitness Record Quiz</title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        </head>
+
+        <body>
+            <main role="main">
+                <section class="startPage">
+                    <form>
+                        <header role="banner">
+                            <h1 class="welcomeMessage"></h1>
+                        </header>
+                        <p class="instructions"></p>
+                        <button id="start">Start quiz</button>
+                </section>
+                <section class="questionPage">
+                    </form>
+                    <form>
+                        <h2 class="questionCount"></h2>
+                        <p class="question"></p>
+                        <ul class="answers"></ul>
+                        <br/>
+                        <button class="check" id="check">Check your answer</button>
+                    </form>
+                </section>
+                <section class="resultsPage">
+                    <form>
+                        <p class="result"></p>
+                        <p class="correctedAnswer"></p>
+                        <p class="scoreCount"></p><br />
+                        <button class="next" id="next">Next question</button>
+                    </form>
+                </section>
+                <section class="finalPage">
+                    <p class="finalMessage"></p>
+                    <p class="finalResult"></p>
+                    <p class="conclusion"></p>
+                    <button class="finalScore" id="finalScore">Your Score</button>
+                </section>
+                <div>
+                    <button class="beginAgain" id="beginAgain">Start Over</button>
+                </div>
+            </main>
+            <script src="index.js"></script>
+        </body>
+
+</html>
